@@ -2,6 +2,42 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Bearing",
+            "x": 324,
+            "y": 156,
+            "uniqueID": 460178,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Skateboard Bearing",
+                    "x": 249,
+                    "y": 141,
+                    "uniqueID": 727274,
+                    "projectID": "197579076",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 727274
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Bearing Block 2",
             "x": 0,
             "y": 0,
@@ -12,64 +48,17 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Maslow 4 Metal Arm Spacer",
-                    "x": 148,
-                    "y": 101,
+                    "x": 88,
+                    "y": 58,
                     "uniqueID": 971411,
                     "projectID": "229145990",
                     "ioValues": []
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 88,
-                    "y": 238,
-                    "uniqueID": 600785,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 150
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 150
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 240,
-                    "y": 226,
-                    "uniqueID": 314499,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 100
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Slice",
-                    "x": 364,
-                    "y": 104,
-                    "uniqueID": 773079,
-                    "projectID": "229988328",
-                    "ioValues": []
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 669,
-                    "y": 84,
+                    "x": 94,
+                    "y": 119,
                     "uniqueID": 368862,
                     "ioValues": [
                         {
@@ -79,12 +68,98 @@
                     ]
                 },
                 {
-                    "atomType": "Intersection",
-                    "name": "Intersection",
-                    "x": 640,
-                    "y": 231,
-                    "uniqueID": 726609,
+                    "atomType": "GitHubMolecule",
+                    "name": "Slice",
+                    "x": 307,
+                    "y": 41,
+                    "uniqueID": 773079,
+                    "projectID": "229988328",
                     "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Bearing",
+                    "x": 324,
+                    "y": 156,
+                    "uniqueID": 460178,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 252,
+                    "y": 269,
+                    "uniqueID": 289652,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 451,
+                    "y": 87,
+                    "uniqueID": 214459,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 603,
+                    "y": 62,
+                    "uniqueID": 931485,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 12
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 596,
+                    "y": 147,
+                    "uniqueID": 772899,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 65
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 929,
+                    "y": 139,
+                    "uniqueID": 127025,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -104,24 +179,51 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 600785,
-                    "ap2ID": 314499
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
-                    "ap1ID": 314499,
-                    "ap2ID": 726609
+                    "ap1ID": 368862,
+                    "ap2ID": 214459
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 773079,
-                    "ap2ID": 726609
+                    "ap2ID": 214459
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 460178,
+                    "ap2ID": 772899
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 214459,
+                    "ap2ID": 931485
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 931485,
+                    "ap2ID": 127025
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 772899,
+                    "ap2ID": 127025
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 127025
                 }
             ],
             "fileTypeVersion": 1
