@@ -522,8 +522,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 1058,
-                    "y": 101,
+                    "x": 986,
+                    "y": 76,
                     "uniqueID": 418014,
                     "ioValues": [
                         {
@@ -531,6 +531,14 @@
                             "ioValue": "Block"
                         }
                     ]
+                },
+                {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 1149,
+                    "y": 82,
+                    "uniqueID": 869003,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -609,6 +617,13 @@
                     "ap2Primary": true,
                     "ap1ID": 127025,
                     "ap2ID": 418014
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 418014,
+                    "ap2ID": 869003
                 }
             ],
             "fileTypeVersion": 1
