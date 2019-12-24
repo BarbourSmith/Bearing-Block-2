@@ -27,11 +27,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 100
+                            "ioValue": 150
                         },
                         {
                             "name": "y length",
-                            "ioValue": 100
+                            "ioValue": 150
                         }
                     ]
                 },
@@ -44,7 +44,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 50
+                            "ioValue": 100
                         },
                         {
                             "name": "yDist",
@@ -57,10 +57,32 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Slice",
+                    "x": 364,
+                    "y": 104,
+                    "uniqueID": 773079,
+                    "projectID": "229988328",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 669,
+                    "y": 84,
+                    "uniqueID": 368862,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 106
+                        }
+                    ]
+                },
+                {
                     "atomType": "Intersection",
                     "name": "Intersection",
-                    "x": 451,
-                    "y": 119,
+                    "x": 640,
+                    "y": 231,
                     "uniqueID": 726609,
                     "ioValues": []
                 },
@@ -75,10 +97,10 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "geometry1",
+                    "ap2Name": "3DÂ  Geometry",
                     "ap2Primary": false,
                     "ap1ID": 971411,
-                    "ap2ID": 726609
+                    "ap2ID": 773079
                 },
                 {
                     "ap1Name": "geometry",
@@ -92,6 +114,13 @@
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
                     "ap1ID": 314499,
+                    "ap2ID": 726609
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 773079,
                     "ap2ID": 726609
                 }
             ],
