@@ -12,8 +12,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Maslow 4 Metal Arm Spacer",
-                    "x": 153,
-                    "y": 170,
+                    "x": 148,
+                    "y": 101,
                     "uniqueID": 971411,
                     "projectID": "229145990",
                     "ioValues": []
@@ -21,19 +21,48 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 417,
-                    "y": 202,
+                    "x": 88,
+                    "y": 238,
                     "uniqueID": 600785,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 100
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 100
                         }
                     ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 240,
+                    "y": 226,
+                    "uniqueID": 314499,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 50
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Intersection",
+                    "name": "Intersection",
+                    "x": 451,
+                    "y": 119,
+                    "uniqueID": 726609,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -43,7 +72,29 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 971411,
+                    "ap2ID": 726609
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 600785,
+                    "ap2ID": 314499
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 314499,
+                    "ap2ID": 726609
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
