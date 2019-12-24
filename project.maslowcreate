@@ -2,7 +2,7 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Bearing",
+            "name": "Bearing, Roller, Encoder",
             "x": 324,
             "y": 156,
             "uniqueID": 460178,
@@ -12,11 +12,67 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Skateboard Bearing",
-                    "x": 249,
-                    "y": 141,
+                    "x": 132,
+                    "y": 63,
                     "uniqueID": 727274,
                     "projectID": "197579076",
                     "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller",
+                    "x": 116,
+                    "y": 177,
+                    "uniqueID": 115105,
+                    "projectID": "197579630",
+                    "ioValues": [
+                        {
+                            "name": "Center Length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 257,
+                    "y": 168,
+                    "uniqueID": 776517,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 447,
+                    "y": 172,
+                    "uniqueID": 443322,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -32,6 +88,20 @@
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 727274
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 115105,
+                    "ap2ID": 776517
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 776517,
+                    "ap2ID": 443322
                 }
             ],
             "fileTypeVersion": 1
@@ -70,36 +140,19 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Slice",
-                    "x": 307,
-                    "y": 41,
+                    "x": 313,
+                    "y": 52,
                     "uniqueID": 773079,
                     "projectID": "229988328",
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Bearing",
+                    "name": "Bearing, Roller, Encoder",
                     "x": 324,
                     "y": 156,
                     "uniqueID": 460178,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 252,
-                    "y": 269,
-                    "uniqueID": 289652,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10
-                        }
-                    ]
                 },
                 {
                     "atomType": "Difference",
@@ -172,7 +225,7 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3DÂ  Geometry",
+                    "ap2Name": "3D Geometry",
                     "ap2Primary": false,
                     "ap1ID": 971411,
                     "ap2ID": 773079
