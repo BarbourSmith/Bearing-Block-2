@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Bearing, Roller, Encoder",
-            "x": 324,
-            "y": 156,
+            "x": 483,
+            "y": 229,
             "uniqueID": 460178,
             "ioValues": [],
             "topLevel": false,
@@ -28,9 +28,18 @@
                     "ioValues": [
                         {
                             "name": "Center Length",
-                            "ioValue": 10
+                            "ioValue": 15
                         }
                     ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Encoder Board",
+                    "x": 131,
+                    "y": 256,
+                    "uniqueID": 933225,
+                    "projectID": "210416841",
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
@@ -70,9 +79,27 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 7
                         }
                     ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 1031,
+                    "y": 125,
+                    "uniqueID": 475629,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -85,9 +112,10 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "number or geometry",
+                    "ap2Name": "3D shape 2",
                     "ap2Primary": false,
-                    "ap1ID": 727274
+                    "ap1ID": 727274,
+                    "ap2ID": 475629
                 },
                 {
                     "ap1Name": "Geometry",
@@ -102,6 +130,19 @@
                     "ap2Primary": true,
                     "ap1ID": 776517,
                     "ap2ID": 443322
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 443322,
+                    "ap2ID": 475629
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 475629
                 }
             ],
             "fileTypeVersion": 1
@@ -138,6 +179,44 @@
                     ]
                 },
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 100,
+                    "y": 188,
+                    "uniqueID": 625179,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 100
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 100
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 234,
+                    "y": 182,
+                    "uniqueID": 384443,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -3
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Slice",
                     "x": 313,
@@ -147,12 +226,22 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Bearing, Roller, Encoder",
-                    "x": 324,
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 360,
                     "y": 156,
-                    "uniqueID": 460178,
-                    "ioValues": []
+                    "uniqueID": 948311,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Difference",
@@ -160,6 +249,14 @@
                     "x": 451,
                     "y": 87,
                     "uniqueID": 214459,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Bearing, Roller, Encoder",
+                    "x": 483,
+                    "y": 229,
+                    "uniqueID": 460178,
                     "ioValues": []
                 },
                 {
@@ -178,8 +275,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 596,
-                    "y": 147,
+                    "x": 673,
+                    "y": 183,
                     "uniqueID": 772899,
                     "ioValues": [
                         {
@@ -232,10 +329,24 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 368862,
-                    "ap2ID": 214459
+                    "ap2ID": 948311
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 625179,
+                    "ap2ID": 384443
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 384443,
+                    "ap2ID": 948311
                 },
                 {
                     "ap1Name": "Geometry",
@@ -245,11 +356,11 @@
                     "ap2ID": 214459
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 460178,
-                    "ap2ID": 772899
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 948311,
+                    "ap2ID": 214459
                 },
                 {
                     "ap1Name": "geometry",
@@ -257,6 +368,13 @@
                     "ap2Primary": true,
                     "ap1ID": 214459,
                     "ap2ID": 931485
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 460178,
+                    "ap2ID": 772899
                 },
                 {
                     "ap1Name": "geometry",

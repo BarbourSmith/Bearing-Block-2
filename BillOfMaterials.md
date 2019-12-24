@@ -3,6 +3,8 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |Bearing|1|$1.50|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
-|Total: |1|$1.50| |
+|Magnet|1|$0.17|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
+|Roller|1|$3.50|www.example.com|
+|Total: |3|$5.17| |
 
- 3xCOG MSRP: $4.50
+ 3xCOG MSRP: $15.51
