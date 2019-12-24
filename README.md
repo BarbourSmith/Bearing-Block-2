@@ -19,55 +19,10 @@
 ## Slice
 
 
-## Bearing, Roller, Encoder
+## Bearing Cutout
 
 
 ## Skateboard Bearing
-
-
-undefined
-
-
-## Roller
-
-
-undefined
-
-
-undefined
-
-
-## Encoder Board
-
-
-## PCB
-
-
-## Board
-
-
-## Components
-
-
-undefined
-
-
-undefined
-
-
-undefined
-
-
-## Bolts
-
-
-## M4x20 Bolt
-
-
-undefined
-
-
-## M4 Locknut
 
 
 undefined
