@@ -10,6 +10,32 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow 4 Metal Arm Spacer",
+                    "x": 153,
+                    "y": 170,
+                    "uniqueID": 971411,
+                    "projectID": "229145990",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 417,
+                    "y": 202,
+                    "uniqueID": 600785,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
