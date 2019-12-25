@@ -320,10 +320,25 @@
                     ]
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 733,
+                    "y": 101,
+                    "uniqueID": 136594,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Bearing Block",
+                        "numberNeeded": 1,
+                        "costUSD": 4,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Tag",
                     "name": "Add Tag",
-                    "x": 765,
-                    "y": 79,
+                    "x": 842,
+                    "y": 57,
                     "uniqueID": 683536,
                     "ioValues": [
                         {
@@ -335,8 +350,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 870,
-                    "y": 160,
+                    "x": 981,
+                    "y": 171,
                     "uniqueID": 127025,
                     "ioValues": [
                         {
@@ -353,8 +368,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 986,
-                    "y": 76,
+                    "x": 1051,
+                    "y": 67,
                     "uniqueID": 418014,
                     "ioValues": [
                         {
@@ -366,8 +381,8 @@
                 {
                     "atomType": "Stl",
                     "name": "Stl",
-                    "x": 1149,
-                    "y": 82,
+                    "x": 1217,
+                    "y": 76,
                     "uniqueID": 869003,
                     "ioValues": []
                 },
@@ -420,7 +435,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 931485,
-                    "ap2ID": 683536
+                    "ap2ID": 136594
                 },
                 {
                     "ap1Name": "geometry",
@@ -428,6 +443,13 @@
                     "ap2Primary": false,
                     "ap1ID": 772899,
                     "ap2ID": 127025
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 136594,
+                    "ap2ID": 683536
                 },
                 {
                     "ap1Name": "geometry",
@@ -460,5 +482,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 2
+    "circleSegmentSize": "0.1"
 }
