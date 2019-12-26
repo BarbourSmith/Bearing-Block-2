@@ -304,19 +304,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 535,
-                    "y": 177,
-                    "uniqueID": 436328,
-                    "ioValues": [
-                        {
-                            "name": "geometry2",
-                            "ioValue": ""
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 500,
@@ -357,7 +344,12 @@
                     "y": 240,
                     "uniqueID": 453620,
                     "projectID": "230188436",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -505,20 +497,6 @@
                     "ap2Primary": true,
                     "ap1ID": 214459,
                     "ap2ID": 931485
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 214459,
-                    "ap2ID": 436328
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 436328,
-                    "ap2ID": 453620
                 },
                 {
                     "ap1Name": "geometry",
