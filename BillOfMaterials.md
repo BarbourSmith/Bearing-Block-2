@@ -2,6 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|Bearing|1|$1.50|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
+|Bearing Block|1|$4.00|www.example.com|
+|Total: |2|$5.50| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $16.50
