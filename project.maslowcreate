@@ -272,8 +272,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Export as JSON",
-                    "x": 313,
-                    "y": 229,
+                    "x": 310,
+                    "y": 184,
                     "uniqueID": 650240,
                     "projectID": "230192765",
                     "ioValues": []
@@ -512,5 +512,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "0.1"
+    "circleSegmentSize": "5.2"
 }
