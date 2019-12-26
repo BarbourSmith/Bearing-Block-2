@@ -120,8 +120,8 @@
         {
             "atomType": "Molecule",
             "name": "Bearing Cutout",
-            "x": 445,
-            "y": 199,
+            "x": 853,
+            "y": 267,
             "uniqueID": 460178,
             "ioValues": [],
             "topLevel": false,
@@ -279,6 +279,23 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 286,
+                    "y": 280,
+                    "uniqueID": 690429,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 451,
@@ -287,24 +304,36 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Bearing Cutout",
-                    "x": 445,
-                    "y": 199,
-                    "uniqueID": 460178,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Wireframe",
-                    "x": 441,
-                    "y": 271,
-                    "uniqueID": 453620,
-                    "projectID": "230188436",
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 535,
+                    "y": 177,
+                    "uniqueID": 436328,
                     "ioValues": [
                         {
-                            "name": "Geometry",
-                            "ioValue": 10
+                            "name": "geometry2",
+                            "ioValue": ""
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 500,
+                    "y": 266,
+                    "uniqueID": 607112,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 50
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -322,25 +351,13 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 673,
-                    "y": 183,
-                    "uniqueID": 772899,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 65
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
+                    "atomType": "GitHubMolecule",
+                    "name": "Wireframe",
+                    "x": 653,
+                    "y": 240,
+                    "uniqueID": 453620,
+                    "projectID": "230188436",
+                    "ioValues": []
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -371,6 +388,14 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Bearing Cutout",
+                    "x": 853,
+                    "y": 267,
+                    "uniqueID": 460178,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 981,
@@ -387,6 +412,27 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 990,
+                    "y": 244,
+                    "uniqueID": 772899,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 65
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
                 },
                 {
                     "atomType": "ExtractTag",
@@ -450,15 +496,29 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
+                    "ap1ID": 690429,
+                    "ap2ID": 607112
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 214459,
                     "ap2ID": 931485
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 460178,
-                    "ap2ID": 772899
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 214459,
+                    "ap2ID": 436328
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 436328,
+                    "ap2ID": 453620
                 },
                 {
                     "ap1Name": "geometry",
@@ -466,13 +526,6 @@
                     "ap2Primary": true,
                     "ap1ID": 931485,
                     "ap2ID": 136594
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": 772899,
-                    "ap2ID": 127025
                 },
                 {
                     "ap1Name": "geometry",
@@ -489,6 +542,13 @@
                     "ap2ID": 127025
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 460178,
+                    "ap2ID": 772899
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
@@ -500,6 +560,13 @@
                     "ap2Primary": true,
                     "ap1ID": 127025,
                     "ap2ID": 418014
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 772899,
+                    "ap2ID": 127025
                 },
                 {
                     "ap1Name": "geometry",
