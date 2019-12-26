@@ -292,7 +292,12 @@
                     "y": 271,
                     "uniqueID": 453620,
                     "projectID": "230188436",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -424,13 +429,6 @@
                     "ap2Primary": false,
                     "ap1ID": 773079,
                     "ap2ID": 214459
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "Geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 773079,
-                    "ap2ID": 453620
                 },
                 {
                     "ap1Name": "geometry",
